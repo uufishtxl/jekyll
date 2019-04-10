@@ -42,4 +42,63 @@ hash: { name: Steve, foo: bar }
 
 ### 数组
 
-一组连词线开头的行
+一组连词线开头的行：  
+```
+- Cat
+- Dog
+- Goldfish
+```
+
+转为JavaScript如下：  
+```
+[ 'Cat', 'Dog', 'Goldfish' ]
+```
+
+数据结构的子成员是一个数组，则可以在该项下面缩进一个空格：  
+```
+- 
+ - Cat
+ - Dog
+ - Goldfish
+```
+
+转为JavaScript如下：  
+```
+[ [ 'Cat', 'Dog', 'Goldfish' ] ]
+```
+
+数组也可以采用行内表示法：  
+```
+animal: [Cat, Dog ]
+```
+
+转为JavaScript如下：  
+```
+{ animal: [ 'Cat', 'Dog' ] }
+```
+
+### 复合结构
+
+对象和数组可以结合使用，形成复合结构：  
+```
+Language:
+ - Ruby
+ - Perl
+ - Python
+ Website:
+  YAML: yaml.org
+  Ruby: ruby-lang.org
+  Python: python.org
+  Perl: use.perl.org 
+```
+
+转为JavaScript如下：
+```Javascript
+{ Language: ['Ruby', 'Perl', 'Python' ] ,
+  Website:
+  { YAML: 'yaml.org',
+    Ruby: 'ruby-lang.org',
+    Python: 'python.org',
+    Perl: 'user.perl.org' } }
+```
+

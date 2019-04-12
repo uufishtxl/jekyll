@@ -2,10 +2,10 @@
 
 - [x] Introduction to Jkeyll Collections
 - [x] Front matter
-- [x] [Layouts](youtube.tutorial.log#Layouts)
+- [x] [Layouts](youtube_tutorial_log.md#Layouts)
 - [x] Jekyll Includes
-- [x] [Introduction to Liquid](youtube.tutorial.log#Liquid)
-- [x] [Control Flow Statements in Liquid](youtube.tutorial.log#Control-Flow-Statements-in-Liquid)
+- [x] [Introduction to Liquid](youtube_tutorial_log.md#Liquid)
+- [x] [Control Flow Statements in Liquid](youtube_tutorial_log.md#Control-Flow-Statements-in-Liquid)
 
 ## Layouts
 

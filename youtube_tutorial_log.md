@@ -4,8 +4,8 @@
 - [x] Front matter
 - [x] [Layouts](youtube.tutorial.log#Layouts)
 - [x] Jekyll Includes
-- [x] Introduction to Liquid(youtube.tutorial.log#Liquid)
-- [x] Control Flow Statements in Liquid#Control-Flow-Statements-in-Liquid)
+- [x] [Introduction to Liquid](youtube.tutorial.log#Liquid)
+- [x] [Control Flow Statements in Liquid](youtube.tutorial.log#Control-Flow-Statements-in-Liquid)
 
 ## Layouts
 
